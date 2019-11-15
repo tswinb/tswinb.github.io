@@ -27,3 +27,9 @@ Linkedin:
   href: 'https://linkedin.com/in/'
   title: 'Linkedin'
   fa-icon: 'fab fa-linkedin'
+
+Instagram:
+  id: 'timswinbank'
+  href: 'https://instagram.com/'
+  title: 'Instagram'
+  fa-icon: 'fab fa-instagram'
