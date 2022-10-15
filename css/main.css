@@ -1,7 +1,10 @@
 body {
-    margin:40px auto;max-width:650px;
-    line-height:1.6;font-size:18px;color:#444;padding:0 10px;
-    font-family: 'Fira Sans', sans-serif;
+    margin:7em auto;max-width:650px;
+    line-height:1.6;font-size:0.8em;color:#444;padding:0 10px;
+    background-color: #f3f2f5;
+}
+b {
+  font-family: 'NotoSerifBold';
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -14,11 +17,12 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    text-decoration: none;
-    color: #999;
+    text-decoration: underline;
+    color: #444;
 }
 a:hover {
     text-decoration: underline;
+    color: #999;
 }
 h1 {
     font-size: 3em;
@@ -30,15 +34,18 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-family: 'NotoSerifRegular', 'Serif';
+    font-size: 1.3em;
+    line-height: 1.8em;
     color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     margin-top: 4em;
+    margin-bottom: 4em;
     font-size: .8em;
+    position:fixed;
+    bottom:0;
 }
 
 ul.posts {
@@ -48,77 +55,4 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
-
-/* collapsible styling */
-
-.wrap-collabsible {
-  margin-bottom: 1.2rem 0;
-}
-
-input[type='checkbox'] {
-  display: none;
-}
-
-.lbl-toggle {
-  display: block;
-
-  font-weight: bold;
-  font-size: 1.2rem;
-
-  padding: 1rem;
- /*
-  color: #A77B0E;
-  background: #FAE042;
- */
-  cursor: pointer;
-
-  border-radius: 7px;
-  transition: all 0.25s ease-out;
-}
-
-.lbl-toggle:hover {
-  color: #838383;
-}
-
-.lbl-toggle::before {
-  content: ' ';
-  display: inline-block;
- /*
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-  */
-  vertical-align: middle;
-  margin-right: .7rem;
-  transform: translateY(-2px);
-
-  transition: transform .2s ease-out;
-}
-
-.toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px);
-}
-
-.collapsible-content {
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height .25s ease-in-out;
-}
-
-.toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 100vh;
-}
-
-.toggle:checked + .lbl-toggle {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.collapsible-content .content-inner {
-  background: #f9f9f9;
-  border-bottom: 1px solid #e0e0e0;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
-  padding: .5rem 1rem;
 }
