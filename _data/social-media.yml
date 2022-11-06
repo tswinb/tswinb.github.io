@@ -16,8 +16,8 @@ Linkedin:
   title: 'Linkedin'
   fa-icon: 'fab fa-linkedin'
 
-Instagram:
-  id: 'timswinbank'
-  href: 'https://instagram.com/'
-  title: 'Instagram'
-  fa-icon: 'fa fa-instagram'
+RSS:
+  id: 'feed.xml'
+  href: 'https://tswinb.github.io/'
+  title: 'RSS'
+  fa-icon: 'fa fa-rss-square'
