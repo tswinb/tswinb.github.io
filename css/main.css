@@ -3,9 +3,6 @@ body {
     line-height:1.6;font-size:0.8em;color:#444;padding:0 10px;
     background-color: #f3f2f5;
 }
-/* b {
-  font-family: 'Noto Serif Bold';
-} */
 nav ul, footer ul {
     font-family:'Georgia', 'Serif';
     padding: 0px;
@@ -25,9 +22,11 @@ a:hover {
     color: #999;
 }
 h1 {
+    font-family: 'Georgia', 'Serif';
     font-size: 3em;
 }
 h2 {
+    font-family: 'Georgia', 'Serif';
     font-size: 1.7em;
 }
 p {
