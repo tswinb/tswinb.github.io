@@ -2,25 +2,13 @@ email:
   id: 'tim@swinbank.co.uk'
   href: 'mailto:'
   title: 'Email'
-  fa-icon: 'fas fa-envelope-square'
-
-# facebook:
-#   id: 'your-facebook-username'
-#   href: 'https://www.facebook.com/'
-#   title: 'Facebook'
-#   fa-icon: 'fa-facebook-square'
-
-# twitter:
-#   id: 'your-twitter-name'
-#   href: 'https://www.twitter.com/'
-#   title: 'Twitter'
-#   fa-icon: 'fa-twitter-square'
+  fa-icon: 'fa fa-envelope-square'
 
 github:
   id: 'tswinb'
   href: 'https://github.com/'
   title: 'GitHub'
-  fa-icon: 'fab fa-github-square'
+  fa-icon: 'fa fa-github-square'
 
 Linkedin:
   id: 'timswinbank'
@@ -32,4 +20,4 @@ Instagram:
   id: 'timswinbank'
   href: 'https://instagram.com/'
   title: 'Instagram'
-  fa-icon: 'fab fa-instagram'
+  fa-icon: 'fa fa-instagram'
